@@ -1,15 +1,12 @@
 # Atividade - Requisição GET e POST
 
-## Desenvolvimento de Software em Nuvem e Ambientes de Desenvolvimento de Software
+Desenvolvimento de Software em Nuvem e Ambientes de Desenvolvimento de Software
 
-### Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - Node.js
-
 - Express
-
 - Body-parser
-
 - Postman
 
 ## Como executar o projeto
@@ -18,63 +15,65 @@ Primeiro, instale as dependências:
 
 ```bash
 npm install
+```
 
-Depois execute o servidor:
+Depois, execute o servidor:
 
 ```bash
 node app.js
+```
 
-```text
-Atividade - Requisição GET e POST
+O servidor ficará disponível em: http://localhost:3001
 
-Desenvolvimento de Software em Nuvem e Ambientes de Desenvolvimento de Software
+---
 
-Tecnologias utilizadas
-- Node.js
-- Express
-- Body-parser
-- Postman
+## Requisição GET
 
-Como executar o projeto
+**Endereço:**
 
-Primeiro, instale as dependências:
-npm install
-
-Depois execute:
-node app.js
-
-Servidor:
-http://localhost:3001
-
---------------------------------
-
-Requisição GET
-
-Endereço:
+```
 http://localhost:3001/
+```
 
-Resultado:
+**Resultado:**
+
+```
 Oi, mundo :-)
+```
 
-Evidência do GET 1
+**Evidência do GET 1**
+
 ![Evidência do GET 1](print-get1.jpeg)
 
-Evidência do GET 2
+**Evidência do GET 2**
+
 ![Evidência do GET 2](print-get2.jpeg)
 
---------------------------------
+---
 
-Requisição POST
+## Requisição POST
 
-Endereço:
+**Endereço:**
+
+```
 http://localhost:3001/soma
+```
 
-Dados:
-a = 10
-b = 5
+**Dados enviados (JSON):**
 
-Resultado:
+```json
+{
+    "a": 10,
+    "b": 5
+}
+```
+
+**Resultado:**
+
+```
 O resultado da soma de 10 e 5 é 15
+```
 
-Evidência do POST
+**Evidência do POST**
+
 ![Evidência do POST](print-post.png)
