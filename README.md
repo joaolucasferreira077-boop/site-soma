@@ -57,10 +57,10 @@ Resultado:
 Oi, mundo :-)
 
 Evidência do GET 1
-[print-get1.jpeg]
+![Evidência do GET 1](print-get1.jpeg)
 
 Evidência do GET 2
-[print-get2.jpeg]
+![Evidência do GET 2](print-get2.jpeg)
 
 --------------------------------
 
@@ -77,4 +77,4 @@ Resultado:
 O resultado da soma de 10 e 5 é 15
 
 Evidência do POST
-[print-post.png]
+![Evidência do POST](print-post.png)
